@@ -13,16 +13,26 @@
 #     i+=1
 # print(noslist)
 
-list1=[]
-for i in range(5):
-    n=eval(input('enter the integer:'))
-    list1.append(n)
-print(list1)
-list2=[]
-for i in range(5):
-    n=eval(input('enter the integer:'))
-    list2.append(n)
-print(list2)
-print("=========================")
+# list1=[]
+# for i in range(5):
+#     n=eval(input('enter the integer:'))
+#     list1.append(n)
+# print(list1)
+# list2=[]
+# for i in range(5):
+#     n=eval(input('enter the integer:'))
+#     list2.append(n)
+# print(list2)
+# print("=========================")
 
-print(list1 in list2)
+# print(list1 in list2)
+# Write a program to accept an alphanumeric string from the user.
+# Now extract only digits from the given input and add it to the list .
+# Finally print the list as well as it’s sum.
+# Make sure your list contains numeric representation of digits
+
+list1=[]
+s=input('enter the alpha numeric string:')
+for s in "0123456789":
+    list1.append(s)
+print(list1)
