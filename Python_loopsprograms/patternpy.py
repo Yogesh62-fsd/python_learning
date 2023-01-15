@@ -26,3 +26,11 @@ for i in range(70, 64, -1):
     for j in range(65, i):
         print(chr(j), end=" ")
     print()
+print("===================================")
+for i in range(2,7):
+    for j in range(i-1):
+        if((i+j)%2==0):
+            print("1",end="")
+        else:
+            print("0",end="")
+    print()
